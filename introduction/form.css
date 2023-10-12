@@ -1,0 +1,60 @@
+body{
+     background-color: rebeccapurple;
+}
+
+form{
+    box-sizing: border-box;
+    display: grid;
+    justify-content: center;
+
+}
+
+
+.form1{
+background-color: white;
+    margin-top: 2.5rem;
+    margin-bottom: 2.5rem;
+}
+.inner{
+  display: flex;
+    flex-direction: column;
+    background-color: white;
+    margin: 2.5rem;
+    padding: 2rem;
+    border: 1px solid #ddd;
+
+    color: black;
+
+}
+#h1{
+    margin-top: 0;
+    margin-left: 2.0rem;
+
+
+}
+h1{
+    font-family: "Bodoni MT Poster Compressed";
+}
+hr{
+    width: 19rem;
+    margin-bottom: 1.5rem;
+    color: #ddd;
+}
+input{
+    border: 2px solid #ddd;
+    border-radius: 0.3rem;
+
+    margin-bottom: 0.5rem;
+}
+label{
+    color: black;
+    font-weight: bold;
+}
+select{
+    background-color: olivedrab;
+}
+
+ select:hover option:hover {
+    background-color: blue;
+}
+/*table*/

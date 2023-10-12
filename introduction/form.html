@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+
+<form>
+
+
+    <div class="form1">
+        <div class="inner">
+        <h1>Styled Select Option</h1>
+    <h1 id="h1"> Field in Form</h1>
+
+    <hr>
+       <label>Name:</label>
+    <input type="text" required>
+    <label>Email:</label>
+    <input type="text"  required>
+    <label for="Age">Age:</label>
+    <select name="age" id="age" onblur="this.size=0" onfocus="this.size=6">
+        <option value="---choose Age From Here---">---choose Age From Here---</option>
+        <option value="Below18years">Below18years</option>
+        <option value="Between18-25years">Between18-25years</option>
+        <option value="Between25-40years">Between25-40years</option>
+        <option value="Between40-60years">Between40-60years</option>
+        <option value="Above60years">Above60years</option>
+    </select>
+            </div>
+    </div>
+
+</form>
+</body>
+</html>
